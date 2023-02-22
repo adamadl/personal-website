@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adam Adl</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/nav-bar.css">
+    <link rel="stylesheet" href="../resources/css/carousel.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../views/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../views/hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../views/projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../views/resume.html">Resume</a>
+              </li>
+            </ul>
+            <img src="../resources/img/logo.png" alt="Logo" width="60px"/>
+          </div>
+        </div>
+      </nav>
+
+      <div id="projects" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div id="carousel-item-1" class="carousel-item active">
+            <img src="../resources/img/project1.jpg" class="d-block w-100" alt="lyric-book">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lyric Book</h5>
+              <p>This book was created using Adobe Photoshop and Lightroom in my "ATLS 2100: Image" class. The book was created as a way for me to express myself and how I feel. Each image in the book goes along with a lyric from the song "This is Me Trying." This song resonates with me as it feels like sometimes I'm pushed to be perfect when in reality, I'm just trying my best.</p>
+            </div>
+          </div>
+          <div id="carousel-item-2" class="carousel-item">
+            <img src="../resources/img/project2.jpg" class="d-block w-100" alt="ease-app">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ease App</h5>
+              <p>As my final project in "ATLS 1100: Design Foundations", I created an app called Ease using Adobe XD. The purpose of this app was to give resources to help others with mental health and give them ways to destress. The app includes 4 different tab: Journal, Stress Relief, Exercises, and Resources. The journal tab allows them to write down their thought and feeling and just express themselves. The stress relief tab allows them to watch some relaxing/satisfying videos. The exercises tab gives them some helpful breathing exercises to destress. Lastly, the resources tab provides mental health resources that they can call or contact if in need of help.</p>
+            </div>
+          </div>
+          <div id="carousel-item-3" class="carousel-item">
+            <img src="../resources/img/project3.jpg" class="d-block w-100" alt="into-the-woods">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Into the Woods</h5>
+              <p>I have been doing theatre for about 9 years and this is one of my favorite productions I have been in. This was a production of "Into the Woods" performed at the Lincoln Center in 2021. I played the part of the Baker and it really allowed me to expand my horizons as a performer </p>
+            </div>
+          </div>
+        </div>
+        <button id=carousel-prev class="carousel-control-prev" type="button" data-bs-target="#projects" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id=carousel-next class="carousel-control-next" type="button" data-bs-target="#projects" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <footer class="bg-light text-center text-white" id="footer">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              href="https://www.facebook.com/adam.adl.92"
+              role="button"
+              >
+              <img id="facebook" src="../resources/img/facebook.png" alt="facebook" width="30px">
+            </a>
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              href="https://www.instagram.com/adamadl22/"
+              role="button"
+              >
+              <img id="instagram" src="../resources/img/instagram.png" alt="instagram" width="30px">
+            </a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              href="https://www.linkedin.com/in/adam-adl-8704951b8/"
+              role="button"
+              ><img id="linkedin" src="../resources/img/linkedin.png" alt="linkedin" width="30px">
+            </a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              href="https://github.com/adamadl"
+              role="button"
+              ><img id="github" src="../resources/img/github.png" alt="github" width="30px">
+            </a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+    </body>
+</html>
