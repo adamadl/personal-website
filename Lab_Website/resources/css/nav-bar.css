@@ -4,21 +4,29 @@
     margin-left: 820px;
     margin-top: 10px;
     margin-right: 100px;
-  }
+}
+
 #self-desc{
     margin: 20px;
 }
 
 #self-image{
-    position:absolute; top: 85px;
-    position:absolute; left: 50px;
+    float: left; 
+    position:relative; top: 48px;
+    position:relative; left: 60px;
+}
+
+#logo{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
+}
   
 footer {
     margin-top: auto;
